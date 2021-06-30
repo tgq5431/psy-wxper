@@ -1,0 +1,101 @@
+{
+	"easycom": {
+		"^u-(.*)": "@/uview-ui/components/u-$1/u-$1.vue"
+	},
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/home",
+			"style": {}
+		},
+		{
+			"path": "pages/login",
+			"style": {}
+		},
+		{
+			"path": "pages/reg",
+			"style": {}
+		}
+    ],
+	"subPackages":[
+		{
+			"root": "course",
+			"pages": [
+				{
+				    "path" : "courseList",
+				    "style" : {}
+				}
+				,{
+				    "path" : "courseView",
+				    "style" : {}
+				}
+			]
+		},
+		{
+			"root": "user",
+			"pages": [
+				{
+				    "path" : "info",
+				    "style" : {}
+				}
+				,{
+				    "path" : "me",
+				    "style" : {}
+				}
+				,{
+				    "path" : "feedback",
+				    "style" : {}
+				}
+				,{
+				    "path" : "about",
+				    "style" : {}
+				}
+				,{
+				    "path" : "history",
+				    "style" : {}
+				}
+				,{
+				    "path" : "buyHistory",
+				    "style" : {}
+				}
+			]
+		},
+		{
+			"root": "quiz",
+			"pages": [
+				{
+				    "path" : "quizList",
+				    "style" : {}
+				}
+				,{
+				    "path" : "test",
+				    "style" : {}
+				}
+				,{
+				    "path" : "result",
+				    "style" : {}
+				}
+			]
+		}
+	],
+	"preloadRule": {
+		"course/courseList": {
+			"network": "all",
+			"packages": ["__APP__"]
+		},
+		"quiz/quizList": {
+			"network": "all",
+			"packages": ["course"]
+		},
+		"user/me": {
+			"network": "all",
+			"packages": ["__APP__"]
+		}
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "心灵广雅（内测版）",
+		"navigationBarBackgroundColor": "#fff",
+		"backgroundColor": "#fff",
+		"navigationStyle": "custom"
+	}
+}

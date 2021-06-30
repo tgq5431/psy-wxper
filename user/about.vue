@@ -1,0 +1,57 @@
+<template>
+	<view>
+		<view class="homeBox"></view>
+		<cu-custom bgColor="bg-white" :isBack="true" style="font-size: 34rpx;color: #000;font-weight: bold;">
+		    <block slot="content">关于我们</block>
+		</cu-custom>
+		<view class="about_box">
+			<view class="about_title">逐鹿荆楚， 领秀南粤</view>
+			<view class="about_content">
+				<p>广雅传媒（武汉）有限公司是一家立足教育、服务教育，集软件开发、销售、系统集成，中、小学教科书及教辅的研发、出版、发行，电子商务、校园文化用品批发于一体的现代出版传媒公司。</p>
+				<p>公司地处素有“九省通衢”美誉的江城——武汉，交通便捷，南通湘赣、北极豫陕、西接天府、东临鄱阳。自古就有绝世名篇赞美江城的秀丽，如李白就有诗云：“黄鹤楼中吹玉笛，江城五月落梅花” 。</p>
+				<p>自成立以来，由于得到了教育部华中师范大学基础教育课程研究中心、华中师范大学心理学院、青少年网络心理与行为教育部重点实验室、湖北省教育厅、广东省教育厅、湖北省教育科学研究院、广东省教育研究院、长江出版传媒集团、南方出版传媒集团、以及各县市教育界朋友的大力支持，公司已取得长足发展，且已形成“品种全、质量好、服务优”的经营特色”。</p>
+				<p>广雅传媒（武汉）有限公司组织研发、出版的广东省中小学《地方综合课程》经广东省中小学教材审定委员会审定通过，列入政府采购。依据国家教育部最新颁布的《中小学综合实践活动课程指导纲要》，公司联合教育部华中师范大学基础教育课程研究中心、华中师范大学教育学院研发了国家必修课程——《综合实践活动》。建设了“广东教育在线·教材网络支撑平台”“综合实践活动课程管理平台”，从多维度、多角度为基础教育段的广大师生提供了优质的数字教学、学习资源，并得到了广大师生的一致好评。</p>
+			</view>
+		</view>
+	</view>
+</template>
+
+<script>
+	export default {
+		data() {
+			return {
+				
+			}
+		},
+		methods: {
+			
+		}
+	}
+</script>
+
+<style lang="scss" scoped>
+	.homeBox {
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        top: 0px;
+        background-color: #11A8FF;
+		z-index: -1;
+    }
+	.about_box{
+		margin: 30rpx;
+		padding: 30rpx;
+		background: #fff;
+		.about_title{
+			color: #333;
+			font-size: 36rpx;
+			text-align: center;
+			margin-bottom: 45rpx;
+		}
+		.about_content p{
+			text-indent: 2em;
+			font-size: 26rpx;
+			line-height: 1.6;
+		}
+	}
+</style>

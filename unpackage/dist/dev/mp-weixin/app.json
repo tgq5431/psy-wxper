@@ -1,0 +1,65 @@
+{
+  "pages": [
+    "pages/home",
+    "pages/login",
+    "pages/reg"
+  ],
+  "subPackages": [
+    {
+      "root": "course",
+      "pages": [
+        "courseList",
+        "courseView"
+      ]
+    },
+    {
+      "root": "user",
+      "pages": [
+        "info",
+        "me",
+        "feedback",
+        "about",
+        "history",
+        "buyHistory"
+      ]
+    },
+    {
+      "root": "quiz",
+      "pages": [
+        "quizList",
+        "test",
+        "result"
+      ]
+    }
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "心灵广雅（内测版）",
+    "navigationBarBackgroundColor": "#fff",
+    "backgroundColor": "#fff",
+    "navigationStyle": "custom"
+  },
+  "preloadRule": {
+    "course/courseList": {
+      "network": "all",
+      "packages": [
+        "__APP__"
+      ]
+    },
+    "quiz/quizList": {
+      "network": "all",
+      "packages": [
+        "course"
+      ]
+    },
+    "user/me": {
+      "network": "all",
+      "packages": [
+        "__APP__"
+      ]
+    }
+  },
+  "usingComponents": {
+    "cu-custom": "/colorui/components/cu-custom"
+  }
+}

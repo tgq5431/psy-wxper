@@ -1,0 +1,8 @@
+
+心灵广雅微信版
+
+
+需要安装的包有:
+copy-webpack-plugin
+crypto-js
+qs

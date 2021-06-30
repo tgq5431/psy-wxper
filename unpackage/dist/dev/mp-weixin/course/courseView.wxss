@@ -1,0 +1,300 @@
+@charset "UTF-8";
+/* uni.scss */
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+image.data-v-94328394 {
+  will-change: transform;
+  display: block;
+}
+.course_title.data-v-94328394 {
+  font-size: 32rpx;
+  color: #333;
+  padding: 42rpx 30rpx;
+}
+.course_video.data-v-94328394 {
+  height: 0;
+  padding-bottom: 56.25%;
+  position: relative;
+}
+.course_video video.data-v-94328394 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  display: block;
+}
+.course_video .video_icon.data-v-94328394 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  z-index: 99999;
+  background: rgba(0, 0, 0, 0.34);
+}
+.course_video .video_icon image.data-v-94328394 {
+  width: 80rpx;
+}
+.course_content.data-v-94328394 {
+  padding: 0 30rpx;
+  margin-bottom: 140rpx;
+}
+.course_content .course_p.data-v-94328394 {
+  font-size: 28rpx;
+  color: #333333;
+  line-height: 1.8;
+  text-indent: 2em;
+}
+.course_content .course_text.data-v-94328394 {
+  font-size: 28rpx;
+  color: #333333;
+  line-height: 1.8;
+  margin: 30rpx 0;
+}
+.course_btn.data-v-94328394 {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 110rpx;
+  background: #11A8FF;
+  color: #fff;
+  line-height: 110rpx;
+  text-align: center;
+  font-size: 36rpx;
+}
+.question_box.data-v-94328394 {
+  padding: 40rpx 40rpx 12rpx 40rpx;
+  color: #11A8FF;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+          flex-wrap: wrap;
+  -webkit-box-align: end;
+  -webkit-align-items: flex-end;
+          align-items: flex-end;
+}
+.question_box .question_pinyin.data-v-94328394 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  margin: 0 4rpx;
+}
+.question_box .pinyin.data-v-94328394 {
+  font-size: 20rpx;
+}
+.answer_box.data-v-94328394 {
+  margin: 0 40rpx;
+  padding: 28rpx 0;
+  border-bottom: 1px solid #eee;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+          flex-wrap: wrap;
+  -webkit-box-align: end;
+  -webkit-align-items: flex-end;
+          align-items: flex-end;
+}
+.answer_box .answer_pinyin.data-v-94328394 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  margin: 0 4rpx;
+}
+.answer_box .pinyin.data-v-94328394 {
+  font-size: 20rpx;
+}
+.questionnaire_box.data-v-94328394 {
+  margin: 0 40rpx;
+  padding: 28rpx 0;
+  border-bottom: 1px solid #eee;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+}
+.questionnaire_box .questionnaire_question.data-v-94328394 {
+  margin-bottom: 20rpx;
+}
+.questionnaire_box .questionnaire_answer_box.data-v-94328394 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+}
+.questionnaire_box .questionnaire_answer_box .questionnaire_answer.data-v-94328394 {
+  padding: 10rpx;
+}
+.feedback_box.data-v-94328394 {
+  padding: 40rpx;
+  color: #11A8FF;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+          flex-wrap: wrap;
+  -webkit-box-align: end;
+  -webkit-align-items: flex-end;
+          align-items: flex-end;
+}
+.feedback_box .feedback_pinyin.data-v-94328394 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  margin: 0 4rpx;
+}
+.feedback_box .pinyin.data-v-94328394 {
+  font-size: 20rpx;
+}
+.study_result_box.data-v-94328394 {
+  position: relative;
+}
+.study_result_box .study_result_top.data-v-94328394 {
+  width: 60%;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+.study_result_title.data-v-94328394 {
+  font-size: 36rpx;
+  font-weight: bold;
+  color: #11A8FF;
+  text-align: center;
+  margin-top: 180rpx;
+  margin-bottom: 80rpx;
+}
+.study_result_title_gray.data-v-94328394 {
+  color: #999;
+}
+.pay_big_title.data-v-94328394 {
+  text-align: center;
+  font-size: 32rpx;
+  font-weight: bold;
+  margin-top: 48rpx;
+}
+.pay_orange.data-v-94328394 {
+  color: #FF7A16;
+}
+.pay_small_title.data-v-94328394 {
+  /* font-size: 18rpx; */
+  color: #999;
+  text-align: center;
+  margin-top: 14rpx;
+}
+.pay_price_text.data-v-94328394 {
+  color: #FF7A16;
+  text-align: center;
+  margin: 48rpx 0 120rpx 0;
+}
+.pay_price_text .pay_big_price.data-v-94328394 {
+  font-size: 48rpx;
+  font-weight: bold;
+}
+.study_result_btn.data-v-94328394 {
+  font-size: 36rpx;
+  color: #fff;
+  background: #11A8FF;
+  text-align: center;
+  padding: 28rpx 0;
+  width: 50%;
+  margin: 40rpx auto;
+  border-radius: 50rpx;
+}
+.pay_btn.data-v-94328394 {
+  font-size: 32rpx;
+  text-align: center;
+  padding: 28rpx 0;
+  width: 340rpx;
+  position: absolute;
+  bottom: -32rpx;
+  left: 50%;
+  -webkit-transform: translate(-50%, 0);
+          transform: translate(-50%, 0);
+  background-image: -webkit-linear-gradient(right, #FE6B2A, #FF9A1D);
+  background-image: linear-gradient(to left, #FE6B2A, #FF9A1D);
+  border-radius: 50rpx;
+  color: #fff;
+}
+.pay_close_btn.data-v-94328394 {
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translate(-50%, 0);
+          transform: translate(-50%, 0);
+  bottom: -160rpx;
+  width: 52rpx;
+}
+.uni-list-cell.data-v-94328394 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  padding: 20rpx 40rpx;
+}
+
